@@ -1,5 +1,5 @@
-import { Tooltip } from "@mui/material";
-import { toolImages } from "../data/config";
+import { Tooltip, IconButton } from "@mui/material";
+import { toolInformation } from "../data/config";
 
 const toolsWithLocalImages: any = {
     'Netlify': true,
@@ -11,21 +11,23 @@ const toolsWithLocalImages: any = {
 // PROJECT TOOL
 const ProjectTool = (props: ProjectToolProps) => {
     const { name } = props;
-    const imageURL = toolsWithLocalImages[name] ? new URL(`../assets/${toolImages[name]}`, import.meta.url).href : toolImages[name];
+
+    // GET OFFICIAL LINK AND IMAGE URL OF THIS TOOL
+    const thisTool = toolInformation[name];
+    const imageURL = toolsWithLocalImages[name] ? new URL(`../assets/${thisTool.image}`, import.meta.url).href : thisTool.image;
 
     // RETURN ELEMENT
     return (
         <Tooltip title={name} placement="top" arrow>
-            <img
-                width="35"
-                src={imageURL}
-                style={{
-                    marginLeft: 15
-                }}
-                alt="project tool"
-                draggable="false"
-                loading="lazy"
-            />
+            <IconButton href={thisTool.link} target="_blank">
+                <img
+                    width="32"
+                    src={imageURL}
+                    alt="project tool"
+                    draggable="false"
+                    loading="lazy"
+                />
+            </IconButton>
         </Tooltip>
     )
 }

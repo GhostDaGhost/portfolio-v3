@@ -55,7 +55,17 @@ interface ProjectProps {
     title: string;
     description: string;
     image: string;
-    languages: string[];
+    toolsUsed: string[];
+    githubLink?: string;
+    siteLink?: string;
+}
+
+interface NonFeaturedProjectProps {
+    title: string;
+    description: string;
+    toolsUsed?: string[];
+    githubLink?: string;
+    siteLink?: string;
 }
 
 interface ProjectToolProps {

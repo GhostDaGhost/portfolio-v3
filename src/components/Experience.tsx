@@ -27,7 +27,7 @@ const Experience = (props: ExperienceProps) => {
                             {/* DESKTOP / LARGE MONITORS */}
                             <Box sx={{ display: { xs: "none", md: "block" } }}>
                                 <TabContainer alignment="horizontal" index={index} tabType="Experience" onChange={onTabChange}>
-                                    <Tab label='Amazon Locker' sx={tabStyling} />
+                                    <Tab label='Amazon' sx={tabStyling} />
                                     <Tab label='Freelance Dev' sx={tabStyling} />
                                 </TabContainer>
 
@@ -37,7 +37,7 @@ const Experience = (props: ExperienceProps) => {
                             {/* MOBILE / SMALL MONITORS */}
                             <Box sx={{ display: { xs: "block", md: "none" } }}>
                                 <TabContainer alignment="horizontal" index={index} tabType="Experience" onChange={onTabChange}>
-                                    <Tab label='Amazon Locker' sx={tabStyling} />
+                                    <Tab label='Amazon' sx={tabStyling} />
                                     <Tab label='Freelance Dev' sx={tabStyling} />
                                 </TabContainer>
 
