@@ -1,15 +1,22 @@
 import { Box, Container, Typography, Link } from "@mui/material";
+import { useState } from "react";
 import { linkStyling } from "../styles/styles";
 
 import Navbar from "../components/Navbar";
 import BackgroundImage from "../components/BackgroundImage";
+import MobileNavigationMenu from "../components/MobileNavigationMenu";
 
 // ERROR
 const Error = () => {
+    const [showMobileNavMenu, setMobileNavMenuVisibility] = useState(false);
+
+    // RETURN ELEMENT
     return (
         <BackgroundImage>
+            {showMobileNavMenu && <MobileNavigationMenu setMobileNavMenuVisibility={setMobileNavMenuVisibility} />}
+
             <Box>
-                <Navbar />
+                <Navbar setMobileNavMenuVisibility={setMobileNavMenuVisibility} />
 
                 <Box sx={{ py: 10 }}>
                     <Container maxWidth="xl">
