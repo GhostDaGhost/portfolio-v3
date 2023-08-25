@@ -57,8 +57,8 @@ const Project = (props: ProjectProps) => {
                     </Typography>
 
                     <Box display="flex" justifyContent="flex-end" sx={{ mb: 3 }}>
-                        {toolsUsed.map(toolsUsed => (
-                            <ProjectTool name={toolsUsed} />
+                        {toolsUsed.map(toolUsed => (
+                            <ProjectTool key={toolUsed} name={toolUsed} />
                         ))}
                     </Box>
 
@@ -91,8 +91,8 @@ const Project = (props: ProjectProps) => {
                 <Divider sx={{ my: 2 }} />
 
                 <Box>
-                    {toolsUsed.map(toolsUsed => (
-                        <ProjectTool name={toolsUsed} />
+                    {toolsUsed.map(toolUsed => (
+                        <ProjectTool key={toolUsed} name={toolUsed} />
                     ))}
                 </Box>
 

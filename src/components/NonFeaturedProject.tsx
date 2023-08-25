@@ -23,8 +23,8 @@ const NonFeaturedProject = (props: NonFeaturedProjectProps) => {
             <Divider sx={{ my: 2 }} />
 
             <Box sx={{ mb: 1 }}>
-                {toolsUsed?.map(toolsUsed => (
-                    <ProjectTool name={toolsUsed} />
+                {toolsUsed?.map(toolUsed => (
+                    <ProjectTool key={toolUsed} name={toolUsed} />
                 ))}
             </Box>
 

@@ -47,7 +47,7 @@ const MobileNavigationMenu = (props: any) => {
 
                             {/* NAV BUTTONS */}
                             {pages.map(page => (
-                                <MobileNavigationMenuButton name={page} />
+                                <MobileNavigationMenuButton key={page} name={page} />
                             ))}
                         </Container>
                     </Box>
