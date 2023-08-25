@@ -1,11 +1,11 @@
-import { Box, Link } from "@mui/material";
+import { Box, IconButton } from "@mui/material";
+import { socialMediaLinks } from "../data/config";
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import { socialMediaLinks } from "../data/config";
 
 // NAVBAR ICON STYLING
 const socialMediaIconStyling: object = {
@@ -13,9 +13,7 @@ const socialMediaIconStyling: object = {
         transform: 'scale(1.2)',
         color: 'var(--main_color2)'
     },
-    mr: 2,
     fontSize: 30,
-    cursor: 'pointer',
     color: 'white',
     transition: '.2s'
 };
@@ -34,9 +32,9 @@ const Socials = () => {
     return (
         <Box>
             {socialMediaLinks.map((socialLink: any, index: number) => (
-                <Link key={index} href={socialLink.link} rel="noopener noreferrer" target="_blank">
+                <IconButton key={index} href={socialLink.link} rel="noopener noreferrer" target="_blank">
                     {(socialMediaIcons[socialLink.name])}
-                </Link>
+                </IconButton>
             ))}
         </Box>
     )
