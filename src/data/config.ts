@@ -156,7 +156,7 @@ export const listOfProjects: object[] = [
         featured: false,
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Cascading Style Sheets'],
         githubLink: 'https://github.com/GhostDaGhost/portfolio',
-        siteLink: 'https://alexarizola.dev/'
+        siteLink: 'https://aa-portfolio-v2.netlify.app/'
     },
     {
         title: 'Personal Portfolio v1',
