@@ -97,7 +97,7 @@ const Contact = () => {
                         }
 
                         {/* FORM */}
-                        <Box component="form" onSubmit={onSubmitButtonClick} sx={{ p: 2, position: 'relative', borderRadius: 3, bgcolor: 'rgba(0, 0, 0, .55)' }}>
+                        <Box component="form" onSubmit={onSubmitButtonClick} sx={{ p: 2, position: 'relative', borderRadius: 3, bgcolor: 'var(--main_color4)' }}>
                             {isSendingEmail && <ContactSendingEmailLoader />}
 
                             {/* INPUT BOXES */}

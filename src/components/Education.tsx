@@ -23,7 +23,7 @@ const Education = (props: EducationProps) => {
 
                         <Divider sx={{ my: 3 }} />
 
-                        <Box sx={{ display: 'flex', p: 2, bgcolor: 'rgba(0, 0, 0, .55)', borderRadius: 2 }}>
+                        <Box sx={{ display: 'flex', p: 2, bgcolor: 'var(--main_color4)', borderRadius: 2 }}>
                             {/* DESKTOP / LARGE MONITORS */}
                             <Box sx={{ display: { xs: "none", md: "block" } }}>
                                 <TabContainer alignment="horizontal" index={index} tabType="Education" onChange={onTabChange}>

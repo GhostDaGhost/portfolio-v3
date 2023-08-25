@@ -16,7 +16,7 @@ const Project = (props: ProjectProps) => {
                 p: 3,
                 mb: 3,
                 borderRadius: 2,
-                bgcolor: { xs: 'rgba(0, 0, 0, .75)', md: 'rgba(0, 0, 0, .55)' },
+                bgcolor: { xs: 'rgba(0, 0, 0, .75)', md: 'var(--main_color4)' },
                 backgroundImage: { xs: `url(${new URL(`../assets/${image}`, import.meta.url).href})`, md: 'none' },
                 backgroundBlendMode: 'darken',
                 backgroundPosition: 'center',
