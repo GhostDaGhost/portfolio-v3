@@ -5,7 +5,8 @@ const toolsWithLocalImages: any = {
     'Netlify': true,
     'Vite': true,
     'Mantine': true,
-    'Preact.js': true
+    'Preact.js': true,
+    'Lua': true
 };
 
 // PROJECT TOOL

@@ -1,5 +1,9 @@
 export const pages: string[] = ['About', 'Experience', 'Education', 'Projects', 'Contact'];
 
+// API INFO FOR CONTACT FORM
+export const contactAPIKey: string = '9e66aaa8-8293-4f02-ae04-e006f4ef8c4e';
+export const contactAPIRoute: string = 'https://api.web3forms.com/submit';
+
 // SOCIAL MEDIA LINKS
 export const socialMediaLinks: object[] = [
     {
@@ -20,12 +24,20 @@ export const socialMediaLinks: object[] = [
     },
     {
         name: 'Email',
-        link: 'mailto:ghostdaghostt@gmail.com'
+        link: 'mailto:alexarizola46@gmail.com'
     }
 ];
 
 // PROJECTS
 export const listOfProjects: object[] = [
+    {
+        title: 'Adriana\'s Bowtique',
+        description: 'A website built for the bowtique named "Adriana\'s Bowtique". It is a bow shop centered in Washington, United States. This is a website to allow users to contact and view available bows for sale. Additionally, the website allows for translation to Spanish from English and vice versa.',
+        image: 'adrianas-bowtique.png',
+        featured: true,
+        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
+        githubLink: 'https://github.com/GhostDaGhost/adriana_bowtique'
+    },
     {
         title: 'GitHub User Lookup',
         description: 'A tool to look up and view a GitHub user\'s profile.',
@@ -34,14 +46,6 @@ export const listOfProjects: object[] = [
         toolsUsed: ['Preact.js', 'Mantine', 'TypeScript', 'Vite', 'Sass'],
         githubLink: 'https://github.com/GhostDaGhost/github_userlookup',
         siteLink: 'https://clever-wisp-aa80d7.netlify.app/'
-    },
-    {
-        title: 'Adriana\'s Bowtique',
-        description: 'A website built for the bowtique named "Adriana\'s Bowtique". It is a bow shop centered in Washington, United States. This is a website to allow users to contact and view available bows for sale. Additionally, the website allows for translation to Spanish from English and vice versa.',
-        image: 'adrianas-bowtique.png',
-        featured: true,
-        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
-        githubLink: 'https://github.com/GhostDaGhost/adriana_bowtique'
     },
     {
         title: 'Movie Info App',
@@ -133,6 +137,20 @@ export const listOfProjects: object[] = [
         githubLink: 'https://github.com/GhostDaGhost/linktree'
     },
     {
+        title: 'Mock Mobile Data Terminal for FiveM',
+        description: 'Created for usage on the multiplayer roleplay-based video game called FiveM. The purpose of this interface is to simulate the functionalities of a real MDT to work hand in hand with emergency services as well as to enhance the roleplay and immersion.',
+        featured: false,
+        toolsUsed: ['HTML', 'Cascading Style Sheets', 'jQuery', 'TypeScript', 'Lua', 'MySQL'],
+        siteLink: 'https://imgur.com/gallery/nn2cCiE'
+    },
+    {
+        title: 'Mock Mobile Phone for FiveM',
+        description: 'Created for usage on the multiplayer roleplay-based video game called FiveM. The purpose of this phone is to simulate the functionalities of a real phone with the ability to call, text, email, manage contacts and interact with the world on social media!',
+        featured: false,
+        toolsUsed: ['HTML', 'Cascading Style Sheets', 'jQuery', 'TypeScript', 'Lua', 'MySQL'],
+        siteLink: 'https://imgur.com/gallery/EP8iE8w'
+    },
+    {
         title: 'Personal Portfolio v2',
         description: 'The second version of my personal portfolio.',
         featured: false,
@@ -213,7 +231,8 @@ export const toolInformation: any = {
         link: 'https://lesscss.org/'
     },
     'Lua': {
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original-wordmark.svg',
+        //image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original-wordmark.svg',
+        image: 'lua.png',
         link: 'https://lua.org/'
     },
     'Vue.js': {

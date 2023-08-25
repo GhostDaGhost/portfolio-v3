@@ -35,7 +35,7 @@ const Projects = () => {
         <Box id="projects" component="section">
             <ReactVisibilitySensor partialVisibility onChange={(isVisible: boolean) => setContainerVisibility(isVisible)}>
                 <Fade in={showContainer} timeout={1000}>
-                    <Container maxWidth="xl" sx={{ minHeight: '99vh', py: 13 }}>
+                    <Container maxWidth="xl" sx={{ minHeight: '99vh', py: 6 }}>
                         <Typography variant="h4" fontFamily="Open Sans" color="white" sx={{ mb: 3 }}>
                             <Link href="#projects" sx={linkStyling}>#</Link> Projects
                         </Typography>

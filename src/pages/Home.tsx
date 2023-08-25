@@ -5,11 +5,14 @@ import Navbar from "../components/Navbar";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
 
+import Contact from "../components/Contact";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
+
 import Introduction from "../components/Introduction";
 import BackgroundImage from "../components/BackgroundImage";
 import MobileNavigationMenu from "../components/MobileNavigationMenu";
+import Footer from "../components/Footer";
 
 // HOME
 const Home = () => {
@@ -51,7 +54,10 @@ const Home = () => {
                     <Education index={currentEducationTabIndex} onTabChange={onTabChange} />
 
                     <Projects />
+                    <Contact />
                 </Box>
+
+                <Footer />
             </Box>
         </BackgroundImage>
     )

@@ -17,7 +17,8 @@ const AboutMe = () => {
                 </Typography>
 
                 <Typography component="p" variant="body1" fontFamily="Open Sans" color="white" sx={{ mb: 2 }}>
-                    Within my time in the development world, I experienced the roles of both as just a developer and a project lead. 
+                    Within my time in the development world, I experienced roles all the way up to a project lead.
+                    I have lead development teams of a record high of at least 15 members. With each member containing a specialty in development.
                 </Typography>
 
                 <Typography component="p" variant="body1" fontFamily="Open Sans" color="white" sx={{ mb: 2 }}>

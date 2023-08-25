@@ -71,3 +71,8 @@ interface NonFeaturedProjectProps {
 interface ProjectToolProps {
     name: string;
 }
+
+interface ContactConfirmationAlertProps {
+    severity: string;
+    message: string;
+}

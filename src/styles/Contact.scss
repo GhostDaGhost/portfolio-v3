@@ -1,0 +1,32 @@
+.MuiFormControl-root {
+    &:hover {
+        > .MuiInputBase-root {
+            > .MuiOutlinedInput-notchedOutline {
+                border-color: white;
+            }
+        }
+    }
+
+    > .MuiFormLabel-root {
+        color: rgb(201, 201, 201);
+    }
+
+    > .MuiFormLabel-root.Mui-focused {
+        color: var(--main_color2) !important;
+    }
+
+    > .MuiInputBase-root.Mui-focused {
+        > .MuiOutlinedInput-notchedOutline {
+            border-color: var(--main_color2);
+        }
+    }
+
+    > .MuiInputBase-root {
+        color: white;
+
+        > .MuiOutlinedInput-notchedOutline {
+            transition: .1s;
+            border: 1px solid rgb(129, 129, 129);
+        }
+    }
+}
