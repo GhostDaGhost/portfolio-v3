@@ -24,6 +24,12 @@ const Contact = () => {
     const [showCooldownAlert, setCooldownAlertState] = useState(false);
     const [isSendingEmail, setSendingEmailState] = useState(false);
 
+    // ON CLOSE ALERT CLICK
+    const onHideAlertClick = () => {
+        clearTimeout(alertClearingTimeout);
+        setSubmissionStatus({});
+    }
+
     // ON SUBMIT CLICK
     const onSubmitButtonClick = async (event: any) => {
         clearTimeout(alertClearingTimeout);
@@ -85,15 +91,19 @@ const Contact = () => {
 
                         {/* ALERTS */}
                         {submissionStatus['success'] === true &&
-                            <ContactConfirmationAlert severity="success" message="Successfully sent an email! I will get to you as soon as possible!" />
+                            <ContactConfirmationAlert
+                                severity="success"
+                                message="Successfully sent an email! I will get to you as soon as possible!"
+                                onHideAlertClick={onHideAlertClick}
+                            />
                         }
 
                         {submissionStatus['success'] === false &&
-                            <ContactConfirmationAlert severity="error" message="An error occurred while sending the email!" />
+                            <ContactConfirmationAlert severity="error" message="An error occurred while sending the email!" onHideAlertClick={onHideAlertClick} />
                         }
 
                         {showCooldownAlert && onCooldown &&
-                            <ContactConfirmationAlert severity="warning" message="You are on a cooldown for sending emails!" />
+                            <ContactConfirmationAlert severity="warning" message="You are on a cooldown for sending emails!" onHideAlertClick={onHideAlertClick} />
                         }
 
                         {/* FORM */}

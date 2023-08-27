@@ -75,4 +75,5 @@ interface ProjectToolProps {
 interface ContactConfirmationAlertProps {
     severity: string;
     message: string;
+    onHideAlertClick: any;
 }

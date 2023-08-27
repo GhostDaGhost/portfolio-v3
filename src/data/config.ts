@@ -1,7 +1,6 @@
 export const pages: string[] = ['About', 'Experience', 'Education', 'Projects', 'Contact'];
 
 // API INFO FOR CONTACT FORM
-export const contactAPIKey: string = '9e66aaa8-8293-4f02-ae04-e006f4ef8c4e';
 export const contactAPIRoute: string = 'https://api.web3forms.com/submit';
 
 // SOCIAL MEDIA LINKS

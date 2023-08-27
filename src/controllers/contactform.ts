@@ -1,4 +1,4 @@
-import { contactAPIRoute, contactAPIKey } from "../data/config";
+import { contactAPIRoute } from "../data/config";
 import axios from "axios";
 
 /**
@@ -8,7 +8,7 @@ import axios from "axios";
 */
 export const SubmitContactForm = async (eventTarget: any) => {
     const formData = new FormData(eventTarget);
-    formData.append('access_key', contactAPIKey);
+    formData.append('access_key', import.meta.env.VITE_CONTACT_API_KEY);
     formData.append('from_name', 'Alexander Arizola\'s Portfolio');
 
     // VALIDATE PARAMETERS
