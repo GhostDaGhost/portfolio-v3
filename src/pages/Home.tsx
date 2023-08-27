@@ -33,9 +33,7 @@ const Home = () => {
 
     // SHOW NAME AND TITLE AFTER SOME TIME
     useEffect(() => {
-        setTimeout(() => {
-            setNameAndTitleVisibility(true);
-        }, 1400);
+        setTimeout(() => setNameAndTitleVisibility(true), 1400);
     }, []);
 
     // RETURN ELEMENT

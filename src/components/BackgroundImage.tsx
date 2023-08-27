@@ -1,4 +1,6 @@
 import { Box } from "@mui/material";
+import { BackgroundImageProps } from "../interfaces";
+
 import BackgroundImageFile from '../assets/background.jpg';
 
 // BACKGROUND IMAGE

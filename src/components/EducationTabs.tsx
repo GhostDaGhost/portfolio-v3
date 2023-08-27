@@ -1,5 +1,6 @@
 import { Typography, Link, Fade } from "@mui/material";
 import { linkStyling } from "../styles/styles";
+import { EducationTabsProps } from "../interfaces";
 
 import TabPanel from "./TabPanel";
 

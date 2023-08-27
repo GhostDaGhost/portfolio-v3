@@ -1,4 +1,6 @@
 import { Box, Typography } from '@mui/material';
+import { MobileNavigationMenuButtonProps } from '../interfaces';
+
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 // MOBILE NAVIGATION MENU BUTTON

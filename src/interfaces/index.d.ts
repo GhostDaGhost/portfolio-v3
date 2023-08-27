@@ -1,3 +1,5 @@
+import { Ref } from "react";
+
 interface NavbarLogoProps {
     imageWidth: string;
     showNavbarContents: boolean;
@@ -75,4 +77,8 @@ interface ProjectToolProps {
 interface ContactConfirmationAlertProps {
     severity: string;
     message: string;
+}
+
+interface MobileNavigationMenuProps {
+    setMobileNavMenuVisibility: any;
 }

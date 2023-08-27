@@ -1,6 +1,7 @@
 import { Box, Container, Typography, Divider, Link } from "@mui/material";
 import { linkStyling } from "../styles/styles";
 
+// ABOUT ME
 const AboutMe = () => {
     return (
         <Box id="about" component="section">

@@ -1,4 +1,5 @@
 import { Alert } from "@mui/material";
+import { ContactConfirmationAlertProps } from "../interfaces";
 
 // CONTACT CONFIRMATION ALERT
 const ContactConfirmationAlert = (props: ContactConfirmationAlertProps) => {

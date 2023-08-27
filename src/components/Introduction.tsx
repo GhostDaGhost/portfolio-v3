@@ -1,4 +1,5 @@
 import { Box, Container, Fade, Typography } from "@mui/material";
+import { IntroductionProps } from "../interfaces";
 import Socials from "./Socials";
 
 // INTRODUCTION

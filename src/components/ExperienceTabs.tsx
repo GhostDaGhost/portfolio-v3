@@ -1,5 +1,6 @@
 import { Typography, Link, Fade } from "@mui/material";
 import { linkStyling, listItemStyling } from "../styles/styles";
+import { ExperienceTabsProps } from "../interfaces";
 
 import TabPanel from "./TabPanel";
 
