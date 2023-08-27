@@ -74,7 +74,7 @@ export const listOfProjects: object[] = [
     },
     {
         title: 'Personal Portfolio v3',
-        description: 'The third version of my personal portfolio.',
+        description: 'The third version of my personal portfolio. This is what you are looking at right now!',
         featured: false,
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
         githubLink: 'https://github.com/GhostDaGhost/portfolio-v3',
