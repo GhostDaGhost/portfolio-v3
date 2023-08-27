@@ -1,4 +1,4 @@
-import { Box, Container, Fade, Typography, Link, Divider, Grid, Button } from "@mui/material";
+import { Box, Container, Fade, Typography, Link, Divider, Grid, Button } from "@mui/material"
 import { useState } from "react";
 
 import { listOfProjects } from "../data/config";

@@ -1,6 +1,4 @@
 import { Slide } from "@mui/material";
-import { NavbarLogoProps } from "../interfaces";
-
 import Logo from "../assets/logo.png";
 
 // NAVBAR LOGO

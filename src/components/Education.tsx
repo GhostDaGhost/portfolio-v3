@@ -1,7 +1,6 @@
 import { Box, Container, Typography, Divider, Tab, Link, Fade } from "@mui/material";
 import { useState } from "react";
 import { linkStyling, tabStyling } from "../styles/styles";
-import { EducationProps } from "../interfaces";
 
 import ReactVisibilitySensor from "react-visibility-sensor";
 import EducationTabs from "./EducationTabs";

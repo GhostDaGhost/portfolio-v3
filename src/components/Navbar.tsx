@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 import { pages } from "../data/config";
-import { NavbarProps } from "../interfaces";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import NavbarLogo from "./NavbarLogo";

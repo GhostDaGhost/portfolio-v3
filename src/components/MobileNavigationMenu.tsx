@@ -1,14 +1,12 @@
 import { Box, Container, Slide } from "@mui/material";
 import { useState } from "react";
-
 import { pages } from "../data/config";
-import { MobileNavigationMenuProps } from "../interfaces";
 
 import CloseIcon from '@mui/icons-material/Close';
 import MobileNavigationMenuButton from "./MobileNavigationMenuButton";
 
 // MOBILE NAVIGATION MENU
-const MobileNavigationMenu = (props: MobileNavigationMenuProps) => {
+const MobileNavigationMenu = (props: any) => {
     const [shouldSlide, setSlideState] = useState(true);
     const { setMobileNavMenuVisibility } = props;
 

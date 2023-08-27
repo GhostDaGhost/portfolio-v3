@@ -1,6 +1,5 @@
 import { Box, Typography, IconButton, Divider } from "@mui/material";
 import { viewingButtonStyling } from "../styles/styles";
-import { ProjectProps } from "../interfaces";
 
 import ProjectTool from "./ProjectTool";
 import GitHubIcon from '@mui/icons-material/GitHub';

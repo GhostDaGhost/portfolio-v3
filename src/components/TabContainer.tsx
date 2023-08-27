@@ -1,5 +1,4 @@
 import { Tabs } from "@mui/material";
-import { TabContainerProps } from "../interfaces";
 
 // TAB CONTAINER
 const TabContainer = (props: TabContainerProps) => {

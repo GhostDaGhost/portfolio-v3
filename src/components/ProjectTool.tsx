@@ -1,6 +1,5 @@
 import { Tooltip, IconButton } from "@mui/material";
 import { toolInformation } from "../data/config";
-import { ProjectToolProps } from "../interfaces";
 
 const toolsWithLocalImages: any = {
     'Netlify': true,
