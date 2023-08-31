@@ -136,6 +136,16 @@ const Contact = () => {
                                 margin="normal"
                                 required
                                 fullWidth
+                                id="subject"
+                                label="Subject"
+                                name="subject"
+                                autoComplete="subject"
+                            />
+
+                            <TextField
+                                margin="normal"
+                                required
+                                fullWidth
                                 type="message"
                                 id="message"
                                 label="Message"
