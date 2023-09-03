@@ -65,6 +65,14 @@ export const listOfProjects: object[] = [
         siteLink: 'https://dainty-tapioca-dbc275.netlify.app/'
     },
     {
+        title: 'AI Image Generator',
+        description: 'A website that prompts the user to enter the description of an image. Once a description is set, AI generates it.',
+        featured: false,
+        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Less'],
+        githubLink: 'https://github.com/GhostDaGhost/ai-image-generator',
+        siteLink: 'https://aa-ai-image-generator.netlify.app/'
+    },
+    {
         title: 'QR Code Generator',
         description: 'A simple QR code generator for any text or link.',
         featured: false,
