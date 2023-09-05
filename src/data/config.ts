@@ -65,6 +65,22 @@ export const listOfProjects: object[] = [
         siteLink: 'https://dainty-tapioca-dbc275.netlify.app/'
     },
     {
+        title: 'Personal Portfolio v3',
+        description: 'The third version of my personal portfolio. This is what you are looking at right now!',
+        featured: false,
+        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
+        githubLink: 'https://github.com/GhostDaGhost/portfolio-v3',
+        siteLink: 'https://aa-portfolio-v3.netlify.app/'
+    },
+    {
+        title: 'Rock Paper Scissors',
+        description: 'A minigame representing the famous hand game called "Rock, Paper, Scissors". This is the first project I\'ve utilized Tailwind CSS.',
+        featured: false,
+        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Tailwind CSS'],
+        githubLink: 'https://github.com/GhostDaGhost/rock-paper-scissors',
+        siteLink: 'https://aa-rock-paper-scissors.netlify.app/'
+    },
+    {
         title: 'AI Image Generator',
         description: 'A website that prompts the user to enter the description of an image. Once a description is set, AI generates it.',
         featured: false,
@@ -79,14 +95,6 @@ export const listOfProjects: object[] = [
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
         githubLink: 'https://github.com/GhostDaGhost/qr-code-generator',
         siteLink: 'https://aa-qrcodegenerator.netlify.app/'
-    },
-    {
-        title: 'Personal Portfolio v3',
-        description: 'The third version of my personal portfolio. This is what you are looking at right now!',
-        featured: false,
-        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
-        githubLink: 'https://github.com/GhostDaGhost/portfolio-v3',
-        siteLink: 'https://aa-portfolio-v3.netlify.app/'
     },
     {
         title: 'Coin Flipper',
@@ -257,5 +265,9 @@ export const toolInformation: any = {
     'Python': {
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
         link: 'https://python.org/'
+    },
+    'Tailwind CSS': {
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+        link: 'https://tailwindcss.com/'
     }
 };
