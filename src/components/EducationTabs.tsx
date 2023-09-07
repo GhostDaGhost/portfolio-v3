@@ -2,6 +2,7 @@ import { Typography, Link, Fade } from "@mui/material";
 import { linkStyling } from "../styles/styles";
 
 import TabPanel from "./TabPanel";
+import RelevantCoursework from "./RelevantCoursework";
 
 // EXPERIENCE TABS
 const EducationTabs = (props: EducationTabsProps) => {
@@ -24,6 +25,9 @@ const EducationTabs = (props: EducationTabsProps) => {
                         <Typography variant="body1" color="white">
                             Currently studying for my Associate of Arts and Sciences-Transfer (AAS-T) degree within Computing and Software Development.
                         </Typography>
+
+                        {/* RELEVANT COURSEWORK */}
+                        <RelevantCoursework instituteName="LWTech" />
                     </div>
                 </Fade>
             </TabPanel>
@@ -60,6 +64,9 @@ const EducationTabs = (props: EducationTabsProps) => {
                         <Typography variant="body1" color="white">
                             Graduated with a <span style={{ color: 'var(--main_color2_brighter)' }}>High School Diploma</span>.
                         </Typography>
+
+                        {/* RELEVANT COURSEWORK */}
+                        <RelevantCoursework instituteName="NCHS" />
                     </div>
                 </Fade>
             </TabPanel>

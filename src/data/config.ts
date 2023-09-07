@@ -27,6 +27,20 @@ export const socialMediaLinks: object[] = [
     }
 ];
 
+// EDUCATION COURSEWORK
+export const educationCoursework: any = {
+    'LWTech': [
+        'CSD112: HTML and CSS',
+        'CSD111: Computer Programming Fundamentals',
+        'CSD110: Computer Programming Fundamentals with Python'    
+    ],
+
+    'NCHS': [
+        'TCS200: Introduction to Computer Science Principles',
+        'BWE110: Web Design'
+    ]
+};
+
 // PROJECTS
 export const listOfProjects: object[] = [
     {

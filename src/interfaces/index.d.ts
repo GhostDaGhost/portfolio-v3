@@ -77,3 +77,7 @@ interface ContactConfirmationAlertProps {
     message: string;
     onHideAlertClick: any;
 }
+
+interface RelevantCourseworkProps {
+    instituteName: string;
+}
