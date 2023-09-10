@@ -87,6 +87,13 @@ export const listOfProjects: object[] = [
         siteLink: 'https://aa-portfolio-v3.netlify.app/'
     },
     {
+        title: 'DOJ Simulated Web Tool',
+        description: 'Developed a web application simulating a legal system for an open-world video game community. The project includes a calculator for in-game jail time and fines, as well as a penal code list categorized by sections such as Capital, Felony, and Misdemeanor.',
+        featured: false,
+        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
+        siteLink: 'https://doj.productionrp.net/'
+    },
+    {
         title: 'Rock Paper Scissors',
         description: 'A minigame representing the famous hand game called "Rock, Paper, Scissors". This is the first project I\'ve utilized Tailwind CSS.',
         featured: false,
