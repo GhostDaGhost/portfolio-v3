@@ -70,6 +70,15 @@ export const listOfProjects: object[] = [
         siteLink: 'https://zippy-cat-24ae8d.netlify.app/'
     },
     {
+        title: 'Link Tree v2',
+        description: 'The second and improved version of a tree of my social media links.',
+        image: 'aa-linktree-v2.png',
+        featured: true,
+        toolsUsed: ['Vue.js', 'Vuetify', 'Vite', 'Cascading Style Sheets'],
+        githubLink: 'https://github.com/GhostDaGhost/linktree-v2',
+        siteLink: 'https://aa-linktree-v2.netlify.app/'
+    },
+    {
         title: 'Weather Lookup',
         description: 'A tool to look up a region for the current climate statistics. Statistics include temperature, pressure, humidity, wind speed/direction and more! This was also my very first Vue.js project!',
         image: 'weatherlookup.png',
@@ -158,12 +167,12 @@ export const listOfProjects: object[] = [
         siteLink: 'https://sparkly-swan-b4f0e8.netlify.app/'
     },
     {
-        title: 'Link Tree',
-        description: 'A tree of links directing to my social media, portfolio and LinkedIn!',
+        title: 'Link Tree v1',
+        description: 'The first version of a tree of my social media links.',
         featured: false,
         toolsUsed: ['Vue.js', 'Sass'],
         githubLink: 'https://github.com/GhostDaGhost/linktree',
-        siteLink: 'https://alexarizola.info/'
+        siteLink: 'https://aa-linktree-v1.netlify.app/'
     },
     {
         title: 'Weekly Temperature Chart',
@@ -290,5 +299,9 @@ export const toolInformation: any = {
     'Tailwind CSS': {
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
         link: 'https://tailwindcss.com/'
+    },
+    'Vuetify': {
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg',
+        link: 'https://vuetifyjs.com/'
     }
 };
