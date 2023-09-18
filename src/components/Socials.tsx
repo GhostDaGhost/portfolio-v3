@@ -32,7 +32,7 @@ const Socials = () => {
     return (
         <Box>
             {socialMediaLinks.map((socialLink: any, index: number) => (
-                <IconButton key={index} href={socialLink.link} rel="noopener noreferrer" target="_blank">
+                <IconButton key={index} href={socialLink.link} rel="noopener noreferrer" target="_blank" aria-label={socialLink.name}>
                     {(socialMediaIcons[socialLink.name])}
                 </IconButton>
             ))}
