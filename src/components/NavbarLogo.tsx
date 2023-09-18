@@ -10,7 +10,7 @@ const NavbarLogo = (props: NavbarLogoProps) => {
                 src={Logo}
                 alt="logo"
                 draggable="false"
-                loading="lazy"
+                // loading="lazy"
             />
         </Slide>
     )
