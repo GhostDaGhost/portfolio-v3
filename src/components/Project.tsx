@@ -6,10 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 // PROJECT
-const Project = (props: ProjectProps) => {
-    const { title, description, image, toolsUsed, githubLink, siteLink } = props;
-
-    // RETURN ELEMENT
+export default ({ title, description, image, toolsUsed, githubLink, siteLink }: ProjectProps) => {
     return (
         <Box
             sx={{
@@ -29,6 +26,7 @@ const Project = (props: ProjectProps) => {
                 <Box>
                     <img
                         width="550"
+                        height="265"
                         src={new URL(`../assets/${image}`, import.meta.url).href}
                         alt="project picture"
                         draggable="false"
@@ -64,13 +62,13 @@ const Project = (props: ProjectProps) => {
 
                     <Box display="flex" justifyContent="flex-end">
                         {(githubLink && githubLink !== '') &&
-                            <IconButton href={githubLink} target="_blank">
+                            <IconButton href={githubLink} target="_blank" aria-label="Project's GitHub">
                                 <GitHubIcon sx={viewingButtonStyling} />
                             </IconButton>
                         }
 
                         {(siteLink && siteLink !== '') && 
-                            <IconButton href={siteLink} target="_blank">
+                            <IconButton href={siteLink} target="_blank" aria-label="Project's Link">
                                 <OpenInNewIcon sx={viewingButtonStyling} />
                             </IconButton>
                         }
@@ -100,13 +98,13 @@ const Project = (props: ProjectProps) => {
 
                 <Box>
                     {(githubLink && githubLink !== '') &&
-                        <IconButton href={githubLink} target="_blank">
+                        <IconButton href={githubLink} target="_blank" aria-label="Project's GitHub">
                             <GitHubIcon sx={viewingButtonStyling} />
                         </IconButton>
                     }
 
                     {(siteLink && siteLink !== '') && 
-                        <IconButton href={siteLink} target="_blank">
+                        <IconButton href={siteLink} target="_blank" aria-label="Project's Link">
                             <OpenInNewIcon sx={viewingButtonStyling} />
                         </IconButton>
                     }
@@ -115,5 +113,3 @@ const Project = (props: ProjectProps) => {
         </Box>
     )
 }
-
-export default Project;
