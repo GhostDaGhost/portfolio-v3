@@ -8,8 +8,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import NavbarLogo from "./NavbarLogo";
 
 // NAVBAR
-const Navbar = (props: NavbarProps) => {
-    const { setMobileNavMenuVisibility } = props;
+export default ({ setMobileNavMenuVisibility }: NavbarProps) => {
     const navigate = useNavigate();
 
     // SLIDE EFFECT FOR NAVBAR CONTENTS
@@ -32,12 +31,12 @@ const Navbar = (props: NavbarProps) => {
                             display: { xs: "none", md: "flex" },
                             mr: 5,
                             cursor: 'pointer'
-                        }} 
+                        }}
                         onClick={() => {
                             navigate('/home');
                         }}
                     >
-                        <NavbarLogo imageWidth="65px" showNavbarContents={showNavbarContents} />
+                        <NavbarLogo imageSize="65" showNavbarContents={showNavbarContents} />
                     </Box>
 
                     {/* DESKTOP / LARGE MONITORS */}
@@ -48,6 +47,7 @@ const Navbar = (props: NavbarProps) => {
                                     <Button
                                         href={`#${page.toLowerCase()}`}
                                         key={page}
+                                        aria-label={page}
                                         sx={{
                                             '&:hover': {
                                                 color: 'var(--main_color2_brighter)'
@@ -70,7 +70,7 @@ const Navbar = (props: NavbarProps) => {
                     <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" }, cursor: 'pointer' }} onClick={() => {
                         navigate('/home');
                     }}>
-                        <NavbarLogo imageWidth="75px" showNavbarContents={showNavbarContents} />
+                        <NavbarLogo imageSize="75" showNavbarContents={showNavbarContents} />
                     </Box>
 
                     {/* MOBILE / SMALL MONITORS */}
@@ -93,5 +93,3 @@ const Navbar = (props: NavbarProps) => {
         </AppBar>
     )
 }
-
-export default Navbar;

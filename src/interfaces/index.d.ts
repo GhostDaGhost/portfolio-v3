@@ -1,5 +1,5 @@
 interface NavbarLogoProps {
-    imageWidth: string;
+    imageSize: string;
     showNavbarContents: boolean;
 }
 
