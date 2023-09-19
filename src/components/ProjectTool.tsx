@@ -10,19 +10,17 @@ const toolsWithLocalImages: any = {
 };
 
 // PROJECT TOOL
-const ProjectTool = (props: ProjectToolProps) => {
-    const { name } = props;
-
-    // GET OFFICIAL LINK AND IMAGE URL OF THIS TOOL
+export default ({ name }: ProjectToolProps) => {
     const thisTool = toolInformation[name];
     const imageURL = toolsWithLocalImages[name] ? new URL(`../assets/${thisTool.image}`, import.meta.url).href : thisTool.image;
 
     // RETURN ELEMENT
     return (
         <Tooltip title={name} placement="top" arrow>
-            <IconButton href={thisTool.link} target="_blank">
+            <IconButton href={thisTool.link} target="_blank" aria-label={name}>
                 <img
                     width="32"
+                    height="32"
                     src={imageURL}
                     alt="project tool"
                     draggable="false"
@@ -32,5 +30,3 @@ const ProjectTool = (props: ProjectToolProps) => {
         </Tooltip>
     )
 }
-
-export default ProjectTool;
