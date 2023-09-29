@@ -14,7 +14,7 @@ const ExperienceTabs = (props: ExperienceTabsProps) => {
                 <Fade in={true} timeout={1000}>
                     <div>
                         <Typography variant="h5" color="white">
-                            FC Associate I, Direct <Link href="https://amazon.com/" sx={linkStyling}>@ Amazon</Link>
+                            Retail Store Associate I <Link href="https://amazon.com/" sx={linkStyling}>@ Amazon</Link>
                         </Typography>
 
                         <Typography variant="subtitle1" color="gray">
@@ -22,11 +22,11 @@ const ExperienceTabs = (props: ExperienceTabsProps) => {
                         </Typography>
 
                         <ul className="ulist">
-                            <li className="listitem" style={listItemStyling}>Process packages into and out of the site</li>
-                            <li className="listitem" style={listItemStyling}>Lift and move heavy payload</li>
-                            <li className="listitem" style={listItemStyling}>Receive and put away inventory</li>
-                            <li className="listitem" style={listItemStyling}>Troubleshoot problems</li>
-                            <li className="listitem" style={listItemStyling}>Work under various types of customer volumes (fast-paced, slow)</li>
+                            <li className="listitem" style={listItemStyling}>Responsible for critical tasks to enhance customer experience.</li>
+                            <li className="listitem" style={listItemStyling}>Tasks include inventory management, order picking facilitation, and returns handling.</li>
+                            <li className="listitem" style={listItemStyling}>Occasionally provide peer training to new team members.</li>
+                            <li className="listitem" style={listItemStyling}>Consistently deliver exceptional service.</li>
+                            <li className="listitem" style={listItemStyling}>Efficiently manage high customer volumes.</li>
                         </ul>
                     </div>
                 </Fade>
