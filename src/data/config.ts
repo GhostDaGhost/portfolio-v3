@@ -100,7 +100,7 @@ export const listOfProjects: object[] = [
         description: 'Developed a web application simulating a legal system for an open-world video game community. The project includes a calculator for in-game jail time and fines, as well as a penal code list categorized by sections such as Capital, Felony, and Misdemeanor.',
         featured: false,
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
-        siteLink: 'https://doj.productionrp.net/'
+        siteLink: 'https://doj.productionrp.org/'
     },
     {
         title: 'Rock Paper Scissors',
