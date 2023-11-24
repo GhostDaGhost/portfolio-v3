@@ -79,13 +79,12 @@ export const listOfProjects: object[] = [
         siteLink: 'https://aa-linktree-v2.netlify.app/'
     },
     {
-        title: 'Weather Lookup',
-        description: 'A tool to look up a region for the current climate statistics. Statistics include temperature, pressure, humidity, wind speed/direction and more! This was also my very first Vue.js project!',
-        image: 'weatherlookup.png',
+        title: 'ProductionRP Website',
+        description: 'Created a website for a gaming community centered towards roleplay. The website includes social media links, general information, F.A.Q and a gallery.',
+        image: 'productionrp.png',
         featured: true,
-        toolsUsed: ['Vue.js', 'TypeScript', 'Vite', 'Sass'],
-        githubLink: 'https://github.com/GhostDaGhost/weatherapp',
-        siteLink: 'https://dainty-tapioca-dbc275.netlify.app/'
+        toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
+        siteLink: 'https://productionrp.org/'
     },
     {
         title: 'Personal Portfolio v3',
@@ -94,6 +93,14 @@ export const listOfProjects: object[] = [
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
         githubLink: 'https://github.com/GhostDaGhost/portfolio-v3',
         siteLink: 'https://aa-portfolio-v3.netlify.app/'
+    },
+    {
+        title: 'Weather Lookup',
+        description: 'A tool to look up a region for the current climate statistics. Statistics include temperature, pressure, humidity, wind speed/direction and more! This was also my very first Vue.js project!',
+        featured: false,
+        toolsUsed: ['Vue.js', 'TypeScript', 'Vite', 'Sass'],
+        githubLink: 'https://github.com/GhostDaGhost/weatherapp',
+        siteLink: 'https://dainty-tapioca-dbc275.netlify.app/'
     },
     {
         title: 'DOJ Simulated Web Tool',
