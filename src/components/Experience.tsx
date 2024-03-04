@@ -18,7 +18,7 @@ const Experience = (props: ExperienceProps) => {
                 <Fade in={showContainer} timeout={1000}>
                     <Container maxWidth="xl" sx={{ minHeight: '99vh', py: 5 }}>
                         <Typography variant="h4" fontFamily="Open Sans" color="white" sx={{ mb: 3 }}>
-                            <Link href="#experience" sx={linkStyling}>#</Link> Experience
+                            <Link href="#experience" sx={linkStyling}>#</Link> Work Experience
                         </Typography>
 
                         <Divider sx={{ my: 3 }} />
@@ -27,8 +27,9 @@ const Experience = (props: ExperienceProps) => {
                             {/* DESKTOP / LARGE MONITORS */}
                             <Box sx={{ display: { xs: "none", md: "block" } }}>
                                 <TabContainer alignment="horizontal" index={index} tabType="Experience" onChange={onTabChange}>
-                                    <Tab label='Amazon' sx={tabStyling} />
                                     <Tab label='Freelance Dev' sx={tabStyling} />
+                                    <Tab label='Amazon' sx={tabStyling} />
+                                    <Tab label='Safeway' sx={tabStyling} />
                                 </TabContainer>
 
                                 <ExperienceTabs index={index} />
@@ -37,8 +38,9 @@ const Experience = (props: ExperienceProps) => {
                             {/* MOBILE / SMALL MONITORS */}
                             <Box sx={{ display: { xs: "block", md: "none" } }}>
                                 <TabContainer alignment="horizontal" index={index} tabType="Experience" onChange={onTabChange}>
-                                    <Tab label='Amazon' sx={tabStyling} />
                                     <Tab label='Freelance Dev' sx={tabStyling} />
+                                    <Tab label='Amazon' sx={tabStyling} />
+                                    <Tab label='Safeway' sx={tabStyling} />
                                 </TabContainer>
 
                                 <ExperienceTabs index={index} />
