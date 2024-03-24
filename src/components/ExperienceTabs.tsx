@@ -41,7 +41,7 @@ const ExperienceTabs = (props: ExperienceTabsProps) => {
                         </Typography>
 
                         <Typography variant="subtitle1" color="gray">
-                            October 2021 - Present
+                            October 2021 - April 2024
                         </Typography>
 
                         <ul className="ulist">
