@@ -31,7 +31,9 @@ export const socialMediaLinks: object[] = [
 export const educationCoursework: Record<string, string[]> = {
     'LWTech': [
         'CS&141: Computer Science I Java',
+        'CS143: Computer Science II',
         'CSD138: SQL',
+        'CSD122: JavaScript',
         'CSD112: HTML and CSS',
         'CSD111: Computer Programming Fundamentals',
         'CSD110: Computer Programming Fundamentals with Python'
