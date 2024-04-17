@@ -307,7 +307,7 @@ export const toolInformation: any = {
         link: 'https://python.org/'
     },
     'Tailwind CSS': {
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
         link: 'https://tailwindcss.com/'
     },
     'Vuetify': {
