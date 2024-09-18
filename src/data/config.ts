@@ -87,7 +87,7 @@ export const listOfProjects: object[] = [
         image: 'productionrp.png',
         featured: true,
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
-        siteLink: 'https://productionrp.org/'
+        siteLink: 'https://prpwebsite-v2.netlify.app/'
     },
     {
         title: 'Personal Portfolio v3',
