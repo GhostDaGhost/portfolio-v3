@@ -19,7 +19,7 @@ const Introduction = (props: IntroductionProps) => {
                         </Typography>
 
                         <Typography variant="h5" fontFamily="Open Sans" color="white" sx={{ mb: 4 }}>
-                            Full Stack Developer
+                            Software Engineer
                         </Typography>
 
                         <Typography variant="h6" fontFamily="Open Sans" color="gray" sx={{ mb: 4 }}>
