@@ -47,7 +47,7 @@ export const educationCoursework: Record<string, string[]> = {
 };
 
 // PROJECTS
-export const listOfProjects: object[] = [
+export const listOfProjects: SoftwareProject[] = [
     {
         title: 'Adriana\'s Bowtique',
         description: 'A website built for the bowtique named "Adriana\'s Bowtique". It is a bow shop centered in Washington, United States. This is a website to allow users to contact and view available bows for sale. Additionally, the website allows for translation to Spanish from English and vice versa.',

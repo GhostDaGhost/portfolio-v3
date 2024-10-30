@@ -81,3 +81,13 @@ interface ContactConfirmationAlertProps {
 interface RelevantCourseworkProps {
     instituteName: string;
 }
+
+interface SoftwareProject {
+    title: string;
+    description: string;
+    image?: string;
+    featured?: boolean;
+    toolsUsed: string[];
+    githubLink?: string;
+    siteLink?: string;
+}
