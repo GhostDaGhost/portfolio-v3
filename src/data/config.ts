@@ -54,7 +54,8 @@ export const listOfProjects: object[] = [
         image: 'adrianas-bowtique.png',
         featured: true,
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
-        githubLink: 'https://github.com/GhostDaGhost/adriana_bowtique'
+        githubLink: 'https://github.com/GhostDaGhost/adriana_bowtique',
+        siteLink: 'https://adrianas-bowtique.netlify.app/'
     },
     {
         title: 'GitHub User Lookup',
