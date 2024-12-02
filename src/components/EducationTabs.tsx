@@ -23,7 +23,7 @@ const EducationTabs = (props: EducationTabsProps) => {
                         </Typography>
 
                         <Typography variant="body1" color="white">
-                            Currently studying for my Associate of Arts and Sciences-Transfer (AAS-T) degree within Computing and Software Development.
+                            Currently studying for my <span style={{ color: 'var(--main_color2_brighter)' }}>Associate of Arts and Sciences-Transfer</span> degree within Computing and Software Development.
                         </Typography>
 
                         {/* RELEVANT COURSEWORK */}

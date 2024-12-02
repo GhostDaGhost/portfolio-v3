@@ -1,4 +1,4 @@
-export const pages: string[] = ['About', 'Experience', 'Education', 'Projects', 'Contact'];
+export const pages: string[] = ['About', /*'Experience',*/ 'Education', 'Projects', 'Contact'];
 
 // API INFO FOR CONTACT FORM
 export const contactAPIRoute: string = 'https://api.web3forms.com/submit';

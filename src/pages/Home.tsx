@@ -7,7 +7,7 @@ import Projects from "../components/Projects";
 
 import Contact from "../components/Contact";
 import Education from "../components/Education";
-import Experience from "../components/Experience";
+//import Experience from "../components/Experience";
 
 import Introduction from "../components/Introduction";
 import BackgroundImage from "../components/BackgroundImage";
@@ -19,7 +19,7 @@ const Home = () => {
     const [showNameAndTitle, setNameAndTitleVisibility] = useState(false);
     const [showMobileNavMenu, setMobileNavMenuVisibility] = useState(false);
 
-    const [currentExperienceTabIndex, setCurrentExperienceTabIndex] = useState(0);
+    const [_currentExperienceTabIndex, setCurrentExperienceTabIndex] = useState(0);
     const [currentEducationTabIndex, setCurrentEducationTabIndex] = useState(0);
  
     // TABS CHANGE HANDLER
@@ -48,7 +48,7 @@ const Home = () => {
                     <Introduction showNameAndTitle={showNameAndTitle} />
                     <AboutMe />
 
-                    <Experience index={currentExperienceTabIndex} onTabChange={onTabChange} />
+                    {/*<Experience index={currentExperienceTabIndex} onTabChange={onTabChange} />*/}
                     <Education index={currentEducationTabIndex} onTabChange={onTabChange} />
 
                     <Projects />
