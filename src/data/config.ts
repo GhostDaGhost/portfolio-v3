@@ -85,7 +85,7 @@ export const listOfProjects: SoftwareProject[] = [
         siteLink: 'https://aa-linktree-v2.netlify.app/'
     },
     {
-        title: 'ProductionRP Website',
+        title: 'Roleplay Community Website',
         description: 'Created a website for a gaming community centered towards roleplay. The website includes social media links, general information, F.A.Q and a gallery.',
         image: 'productionrp.png',
         featured: true,
@@ -214,7 +214,7 @@ export const listOfProjects: SoftwareProject[] = [
         featured: false,
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Cascading Style Sheets'],
         githubLink: 'https://github.com/GhostDaGhost/portfolio',
-        siteLink: 'https://aa-portfolio-v2.netlify.app/'
+        //siteLink: 'https://aa-portfolio-v2.netlify.app/'
     },
     {
         title: 'Personal Portfolio v1',
@@ -222,7 +222,7 @@ export const listOfProjects: SoftwareProject[] = [
         featured: false,
         toolsUsed: ['HTML', 'Cascading Style Sheets'],
         githubLink: 'https://github.com/GhostDaGhost/portfolio-old',
-        siteLink: 'https://aa-portfolio-v1.netlify.app/'
+        //siteLink: 'https://aa-portfolio-v1.netlify.app/'
     }
 ];
 
