@@ -91,3 +91,8 @@ interface SoftwareProject {
     githubLink?: string;
     siteLink?: string;
 }
+
+interface SocialPlatform {
+    name: string;
+    link: string;
+};

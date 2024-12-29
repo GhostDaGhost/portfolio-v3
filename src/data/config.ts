@@ -1,10 +1,10 @@
 export const pages: string[] = ['About', /*'Experience',*/ 'Education', 'Projects', 'Contact'];
 
 // API INFO FOR CONTACT FORM
-export const contactAPIRoute: string = 'https://api.web3forms.com/submit';
+export const contactAPIRoute = 'https://api.web3forms.com/submit';
 
 // SOCIAL MEDIA LINKS
-export const socialMediaLinks: object[] = [
+export const socialMediaLinks: SocialPlatform[] = [
     {
         name: 'GitHub',
         link: 'https://github.com/GhostDaGhost/'
@@ -14,7 +14,7 @@ export const socialMediaLinks: object[] = [
         link: 'https://instagram.com/alex.arizola/'
     },
     {
-        name: 'Twitter',
+        name: 'X',
         link: 'https://x.com/alex_arizola/'
     },
     {

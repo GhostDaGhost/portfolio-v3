@@ -3,7 +3,7 @@ import { socialMediaLinks } from "../data/config";
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -19,19 +19,19 @@ const socialMediaIconStyling: object = {
 };
 
 // ICONS FOR EACH SOCIAL MEDIA
-const socialMediaIcons: any = {
-    'GitHub': <GitHubIcon sx={socialMediaIconStyling} />,
-    'Instagram': <InstagramIcon sx={socialMediaIconStyling} />,
-    'Twitter': <TwitterIcon sx={socialMediaIconStyling} />,
-    'LinkedIn': <LinkedInIcon sx={socialMediaIconStyling} />,
-    'Email': <EmailIcon sx={socialMediaIconStyling} />
+const socialMediaIcons: Record<string, any> = {
+    GitHub: <GitHubIcon sx={socialMediaIconStyling} />,
+    Instagram: <InstagramIcon sx={socialMediaIconStyling} />,
+    X: <XIcon sx={socialMediaIconStyling} />,
+    LinkedIn: <LinkedInIcon sx={socialMediaIconStyling} />,
+    Email: <EmailIcon sx={socialMediaIconStyling} />
 };
 
 // SOCIALS
-const Socials = () => {
+export default () => {
     return (
         <Box>
-            {socialMediaLinks.map((socialLink: any, index: number) => (
+            {socialMediaLinks.map((socialLink: SocialPlatform, index: number) => (
                 <IconButton key={index} href={socialLink.link} rel="noopener noreferrer" target="_blank" aria-label={socialLink.name}>
                     {(socialMediaIcons[socialLink.name])}
                 </IconButton>
@@ -39,5 +39,3 @@ const Socials = () => {
         </Box>
     )
 }
-
-export default Socials;
