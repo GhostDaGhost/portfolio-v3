@@ -24,6 +24,9 @@ const EducationTabs = (props: EducationTabsProps) => {
 
                         <Typography variant="body1" color="white">
                             Currently studying for my <span style={{ color: 'var(--main_color2_brighter)' }}>Associate of Arts and Sciences-Transfer</span> degree within Computing and Software Development.
+                            During my time at LWTech, I achieved a spot in the Dean's List of Fall 2024 as well as was awarded the Foundation Scholarship for Spring 2024.
+                            I was then awarded the Washington Opportunity Career and Technical Scholarship in November 2024 to aid my studies after demonstrating academic success
+                            as well as a precise vision for my career.
                         </Typography>
 
                         {/* RELEVANT COURSEWORK */}
