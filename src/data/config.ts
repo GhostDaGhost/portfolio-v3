@@ -23,7 +23,7 @@ export const socialMediaLinks: SocialPlatform[] = [
     },
     {
         name: 'Email',
-        link: 'mailto:alexarizola46@gmail.com'
+        link: 'mailto:contact@alexarizola.dev'
     }
 ];
 
