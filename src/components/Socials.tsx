@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 // NAVBAR ICON STYLING
 const socialMediaIconStyling: object = {
@@ -36,6 +37,10 @@ export default () => {
                     {(socialMediaIcons[socialLink.name])}
                 </IconButton>
             ))}
+
+            <IconButton href={new URL(`../assets/resume.pdf`, import.meta.url).href} rel="noopener noreferrer" target="_blank" aria-label="Resume">
+                <DescriptionIcon sx={socialMediaIconStyling} />
+            </IconButton>
         </Box>
     )
 }

@@ -32,6 +32,8 @@ export const educationCoursework: Record<string, string[]> = {
     'LWTech': [
         'CSD275: PHP Scripting',
         'CSD268: QA Methodologies',
+        'CSD233: C++ Programming',
+        'CSD230: Program Mobile Devices',
         'CS&141: Computer Science I Java',
         'CS143: Computer Science II',
         'CSD138: SQL',
@@ -91,6 +93,12 @@ export const listOfProjects: SoftwareProject[] = [
         featured: true,
         toolsUsed: ['React.js', 'Material UI', 'TypeScript', 'Vite', 'Sass'],
         siteLink: 'https://prpwebsite-v2.netlify.app/'
+    },
+    {
+        title: 'FiveM Server Framework',
+        description: 'Developed a custom server framework for FiveM, featuring core systems like player management, economy, and job mechanics. Designed for performance, scalability, and flexibility, enabling seamless integration of custom resources and rapid server customization.',
+        featured: false,
+        toolsUsed: ['Lua', 'JavaScript', 'TypeScript', 'MySQL', 'React.js', 'HTML', 'Cascading Style Sheets', 'jQuery', 'Sass', 'Material UI', 'Vite']
     },
     {
         title: 'Personal Portfolio v3',
@@ -227,7 +235,7 @@ export const listOfProjects: SoftwareProject[] = [
 ];
 
 // TOOL INFORMATION
-export const toolInformation: any = {
+export const toolInformation: Record<string, Record<string, string>> = {
     'Netlify': {
         image: 'netlify.png',
         link: 'https://netlify.com/'
